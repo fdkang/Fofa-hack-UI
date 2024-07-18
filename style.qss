@@ -1,0 +1,52 @@
+/*** 全局样式 ***/
+
+QPushButton{
+	background: transparent;
+	border-radius: 6px;
+	background-color: #34495e;
+}
+QComboBox{
+	background: transparent;
+	border-radius: 6px;
+	background-color: #34495e;
+}
+QLineEdit{
+	background-color:#a4b0be;
+	border-radius: 2px;
+}
+QWidget { 
+	color: #04f1f2;
+}
+
+
+
+/*** 局部样式 ***/
+
+#Widget{
+	background-color: #040c1c;
+    color:white;
+	border-radius: 5px;
+}
+#enterButton{
+    background: transparent;
+	border-radius: 6px;
+	background-color: #34495e;
+    qproperty-icon:url(:/icon/resource/icon/triggerdete.png);
+}
+#inputlineEdit{
+	background-color:#ecf0f1;
+	border-radius: 2px;
+}
+#logText{
+	border-radius: 6px;
+	background-color:#95afc0;
+}
+#moreWidget{
+	border-radius: 6px;
+    background-image: url(:/icon/resource/icon/fofa.png);
+	background-position: center;
+	background-repeat: no-repeat; /* 防止图片重复显示 */
+}
+#logText{
+	color:#107c10;
+}
